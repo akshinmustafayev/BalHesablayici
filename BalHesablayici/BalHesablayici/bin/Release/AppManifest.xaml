@@ -1,0 +1,11 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="BalHesablayici" EntryPointType="BalHesablayici.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="BalHesablayici" Source="BalHesablayici.dll" />
+    <AssemblyPart x:Name="AmCharts.Windows.QuickCharts.WP" Source="AmCharts.Windows.QuickCharts.WP.dll" />
+    <AssemblyPart x:Name="Microsoft.Expression.Drawing" Source="Microsoft.Expression.Drawing.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart Source="az-Latn/BalHesablayici.resources.dll" />
+  </Deployment.Parts>
+</Deployment>
